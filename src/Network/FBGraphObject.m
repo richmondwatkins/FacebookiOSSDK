@@ -364,9 +364,9 @@ typedef NS_ENUM(NSUInteger, SelectorInferredImplType) {
         return NO;
     }
 
-    if ([protocol isEqual:@protocol(FBGraphObject)]) {
-        return YES; // by definition
-    }
+//    if ([protocol isEqual:@protocol(FBGraphObject)]) {
+//        return YES; // by definition
+//    }
 
     unsigned int count = 0;
     struct objc_method_description *methods = nil;
